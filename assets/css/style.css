@@ -5,6 +5,8 @@
     --header-background-color: #4f4d4b;
     --header-text-color: #556366;
     --header-nav-color: #b9C6ae;
+    --banner-black: #000;
+    --banner-pinkish-purple: rgb(177, 179, 239);
 }
 
 /*
@@ -62,4 +64,27 @@ nav a {
     text-decoration: none;
     padding-bottom: 1%;
     border-bottom: 3px var(--header-nav-color) solid;
+}
+
+/*
+ * Set article style used for the banner
+ */
+article {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 20vh;
+    background-image: url("../images/colorful-seashells-pattern.jpg");
+}
+
+/*
+ * Style h2 elements in the banner (article)
+ */
+article h2 {
+    font-size: 200%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    height:min-content;
+    align-self: flex-end;
+    background: var(--banner-pinkish-purple);
+    border: 10px var(--banner-black) solid;
 }
