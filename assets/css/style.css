@@ -1,8 +1,65 @@
+/*
+ * Define commonly used colors
+ */
 :root {
-
+    --header-background-color: #4f4d4b;
+    --header-text-color: #556366;
+    --header-nav-color: #b9C6ae;
 }
 
-* {
-
+/*
+ * Set preferred fonts.
+ */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+/*
+ * Set header style
+ */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background: var(--header-background-color);
+    color: var(--header-text-color);
+}
+
+/*
+ * Set h1 heading style for h1 elements in the header
+ */
+header h1 {
+    margin: 0;
+    padding-left: 6%;
+    padding-right: 2%;
+    height: 60%;
+    text-align:right;
+    font-size:  35px;
+    background: var(--header-nav-color)
+}
+
+/*
+ * Set navigation bar unordered list style
+ */
+nav ul {
+    display: flex;
+    padding-right: 100px;
+    justify-content:center;
+    min-width: 300px;
+    list-style: none;
+}
+  
+/*
+ * Set navigation bar anchor style
+ */
+nav a {
+    margin-right: 20px;
+    color: var(--header-nav-color);
+    font-weight: bold;
+    font-size: 130%;
+    text-decoration: none;
+    padding-bottom: 1%;
+    border-bottom: 3px var(--header-nav-color) solid;
+}
