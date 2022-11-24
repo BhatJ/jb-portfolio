@@ -31,5 +31,5 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Usage
 
 * Clicking on a projects image takes you to the deployed website.
-
+* Deployment - [bhatj portfolio](https://bhatj.github.io/jb-portfolio/)
 ![bhatj portfolio!](./assets/images/jbhat-portfolio-screenshot.png)
